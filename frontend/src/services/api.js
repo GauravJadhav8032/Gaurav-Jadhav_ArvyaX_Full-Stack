@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
+const BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://gaurav-jadhav-arvyax-full-stack.onrender.com";
 
 const api = axios.create({
   baseURL: `${BASE_URL}/api/journal`,
